@@ -1,0 +1,429 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #fffcf1;
+}
+
+@font-face {
+    font-family: dancing;
+    src: url(DancingScript-VariableFont_wght.ttf);
+}
+
+#h1 {
+    font-family: dancing;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: #fffcf1;
+}
+
+#d1 {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#d1-1 {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+#d2 {
+    width: 95%;
+    margin: auto;
+}
+
+#h2 {
+    font-size: 80px;
+}
+
+#h2,
+#p1,
+#h4 {
+    color: #213522;
+}
+
+#d3 {
+    margin: auto;
+    width: 95%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#p1 {
+    font-size: 25px;
+}
+
+input[value="donate"],
+input[value="get involved"] {
+    font-size: 18px;
+    width: 150px;
+    padding: 18px;
+    border: 1px solid #213522;
+    border-radius: 50px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+input[value="donate"] {
+    color: #213522;
+    background-color: #fffcf1;
+}
+
+input[value="donate"]:hover {
+    background-color: #213522;
+    color: #fffcf1;
+    transition-duration: 0.5s;
+}
+
+input[value="get involved"] {
+    background-color: #213522;
+    color: #fffcf1;
+}
+
+input[value="get involved"]:hover {
+    background-color: #fffcf1;
+    color: #213522;
+    transition-duration: 0.5s;
+}
+
+#f1 {
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+}
+
+img[src="mtavarisurati.avif"],
+img[src="bolophoto.avif"] {
+    width: 100%;
+}
+
+#s1 {
+    background-color: rgb(52, 104, 47);
+    display: flex;
+    justify-content: center;
+    height: 1100px;
+}
+
+#d5 {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#d6 {
+    width: 35%;
+}
+
+img[src="section1photo2.avif"] {
+    width: 35%;
+}
+
+img[src="section1photo1.avif"] {
+    width: 100%;
+}
+
+#h3 {
+    font-size: 80px;
+    color: #fffcf1;
+}
+
+#p2 {
+    font-size: 21px;
+    color: #fffcf1;
+}
+
+#d7 {
+    width: 95%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 100px;
+}
+
+#s2 {
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img[src="d7-1.avif"],
+img[src="d7-2.avif"],
+img[src="d7-3.avif"] {
+    height: 360px;
+    width: 100%;
+}
+
+#h4,
+#p3 {
+    color: #213522;
+    font-family: sans-serif;
+}
+
+img[src="d7-1.avif"]:hover,
+img[src="d7-2.avif"]:hover,
+img[src="d7-3.avif"]:hover {
+    cursor: pointer;
+}
+
+#d7-1:hover,
+#d7-2:hover,
+#d7-3:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+button {
+    font-size: 18px;
+    width: 150px;
+    padding: 18px;
+    border: 1px solid #213522;
+    border-radius: 50px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    background-color: #213522;
+    color: #fffcf1;
+}
+
+button:hover {
+    background-color: #fffcf1;
+    color: #213522;
+    transition-duration: 0.5s;
+}
+
+#d8 {
+    margin: auto;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#d8-photo {
+    width: 95%;
+    margin: auto;
+}
+
+#f2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#d8-1 {
+    width: 30%;
+}
+
+#d8-1 *:not(#submit),
+#d8-2 * {
+    font-family: sans-serif;
+    color: #213522;
+}
+
+#d8-1:first-child {
+    font-size: 30px;
+}
+
+#f2 input:not(#submit),
+textarea {
+    border: none;
+    background-color: #fffcf1;
+    border-bottom: 1px solid #213522;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#f2 *:focus {
+    outline: none;
+}
+
+#f2 label {
+    font-size: 20px;
+}
+
+input[value="submit"] {
+    font-size: 18px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #213522;
+    border-radius: 50px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    background-color: #213522;
+    color: #fffcf1;
+}
+
+#submit:hover {
+    background-color: #fffcf1;
+    color: #213522;
+    transition-duration: 0.5s;
+}
+
+#d8-2 {
+    width: 30%;
+}
+
+#d9 {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+footer {
+    background-color: rgb(52, 104, 47);
+    height: 500px;
+}
+
+#d9-1 *:not(h1) {
+    color: #fffcf1;
+    font-size: 20px;
+}
+
+#d9-1:first-child {
+    color: #fffcf1;
+    font-size: larger;
+}
+
+#d9-2 * {
+    display: flex;
+    flex-direction: column;
+    color: #fffcf1;
+    font-size: 20px;
+}
+
+#d9-2 {
+    width: 30%;
+}
+
+img[src="bolophoto.avif"] {
+    margin-top: 250px;
+}
+
+#menu-icon {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    #d1-1>*:not(#menu-icon) {
+        display: none;
+    }
+
+    #d1-1 {
+        width: 22px;
+    }
+
+    #menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    #d3 {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #f1 {
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+    }
+
+    #d5 {
+        flex-direction: column;
+    }
+
+    #d6,
+    img[src="section1photo2.avif"] {
+        width: 100%;
+    }
+
+    #d7 {
+        height: 3500px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    #s2 {
+        margin-top: 650px;
+    }
+
+    img[src="d7-1.avif"],
+    img[src="d7-2.avif"],
+    img[src="d7-3.avif"] {
+        height: auto;
+        margin-top: 30px;
+    }
+
+    #s1 {
+        height: auto;
+    }
+
+    img[src="section1photo2.avif"] {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #d8 {
+        margin-top: 650px;
+        display: flex;
+        flex-direction: column;
+        height: 1050px;
+    }
+
+    #d8-1,
+    #d8-2 {
+        width: 95%;
+    }
+
+    img[src="bolophoto.avif"] {
+        height: auto;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    #d9 {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #d9-1,
+    #d9-2 {
+        width: 95%;
+        margin-top: 50px;
+    }
+
+    #d9-1 *:not(h1),
+    #d9-2 * {
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #fffcf1;
+}
+
+#d1 {
+    width: 80%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 100px;
+    margin: 80px auto auto auto;
+}
+
+section * {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+section {
+    display: flex;
+}
+
+a[href="index.html"] {
+    height: 30px;
+}

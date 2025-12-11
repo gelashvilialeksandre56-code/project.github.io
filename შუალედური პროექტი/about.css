@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #fffcf1;
+}
+
+@font-face {
+    font-family: dancing;
+    src: url(DancingScript-VariableFont_wght.ttf);
+}
+
+#h1 {
+    font-family: dancing;
+}
+
+nav {
+    background-color: #fffcf1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+#d1 {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#d1-1 {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+#menu-icon {
+    display: none;
+}
+
+#d2 {
+    height: 850px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#d2-1 {
+    height: auto;
+    width: 40%;
+}
+
+#d2-2 {
+    height: auto;
+    width: 40%;
+}
+
+#d2-1:first-child {
+    font-size: 50px;
+    color: #213522;
+}
+
+#p1 {
+    font-size: 25px;
+    color: #213522;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+input {
+    font-size: 18px;
+    width: 300px;
+    padding: 18px;
+    border: 1px solid #213522;
+    border-radius: 50px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    background-color: #213522;
+    color: #fffcf1;
+}
+
+input:hover {
+    background-color: #fffcf1;
+    color: #213522;
+    transition-duration: 0.5s;
+}
+
+#d3 {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+footer {
+    background-color: rgb(52, 104, 47);
+    height: 500px;
+}
+
+#d3-1 *:not(h1) {
+    color: #fffcf1;
+    font-size: 20px;
+}
+
+#d3-1:first-child {
+    color: #fffcf1;
+    font-size: larger;
+}
+
+#d3-2 * {
+    display: flex;
+    flex-direction: column;
+    color: #fffcf1;
+    font-size: 20px;
+}
+
+#d3-2 {
+    width: 30%;
+}
+
+@media screen and (max-width: 768px) {
+    #d1-1>*:not(#menu-icon) {
+        display: none;
+    }
+
+    #d1-1 {
+        width: 22px;
+    }
+
+    #menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    #d2 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #d2-1,
+    #d2-2 {
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    #d3 {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #d3-1,
+    #d3-2 {
+        width: 95%;
+        margin-top: 50px;
+    }
+
+    #d3-1 *:not(h1),
+    #d3-2 * {
+        font-size: 25px;
+    }
+}

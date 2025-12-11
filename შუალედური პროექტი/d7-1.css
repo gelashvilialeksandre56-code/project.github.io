@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #fffcf1;
+}
+
+@font-face {
+    font-family: dancing;
+    src: url(DancingScript-VariableFont_wght.ttf);
+}
+
+#h1 {
+    font-family: dancing;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: #fffcf1;
+}
+
+#d1 {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#d1-1 {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+section * {
+    color: #213522;
+}
+
+#d2 {
+    width: 50%;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#h2 {
+    font-size: 60px;
+}
+
+#menu-icon {
+    display: none;
+}
+
+#d2 {
+    margin: auto;
+    width: 60%;
+    row-gap: 25px;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#h2 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 25px;
+}
+
+#d4:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#a1 {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+
+#d9 {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+footer {
+    background-color: rgb(52, 104, 47);
+    height: 500px;
+}
+
+#d9-1 *:not(h1) {
+    color: #fffcf1;
+    font-size: 20px;
+}
+
+#d9-1:first-child {
+    color: #fffcf1;
+    font-size: larger;
+}
+
+#d9-2 * {
+    display: flex;
+    flex-direction: column;
+    color: #fffcf1;
+    font-size: 20px;
+}
+
+#d9-2 {
+    width: 30%;
+}
+
+@media screen and (max-width: 768px) {
+    #d1-1>*:not(#menu-icon) {
+        display: none;
+    }
+
+    #d1-1 {
+        width: 22px;
+    }
+
+    #menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    #d2 {
+        width: 95%;
+        height: auto;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    #d9 {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #d9-1,
+    #d9-2 {
+        width: 95%;
+        margin-top: 50px;
+    }
+
+    #d9-1 *:not(h1),
+    #d9-2 * {
+        font-size: 25px;
+    }
+}
